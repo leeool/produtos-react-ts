@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dados {
+  flex: 1;
+
+  h2 {
+    margin-bottom: 1.6rem;
+  }
+
+  li + li {
+    margin-top: 1rem;
+  }
+
+  li {
+    border-bottom: 4px solid #ddd;
+  }
+}
+
+.produtos {
+  & > h2 {
+    margin-bottom: 1.6rem;
+  }
+}

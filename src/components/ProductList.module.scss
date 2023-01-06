@@ -1,0 +1,12 @@
+.lista {
+  display: flex;
+  gap: 1.6rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+
+  img {
+    object-fit: cover;
+    object-position: center;
+    width: 15rem;
+  }
+}
